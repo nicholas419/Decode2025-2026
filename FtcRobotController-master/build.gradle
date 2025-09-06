@@ -3,7 +3,11 @@
  *
  * It is extraordinarily rare that you will ever need to edit this file.
  */
-
+repositories {
+    maven {
+        url = 'https://maven.brott.dev/'
+    }
+}
 buildscript {
     repositories {
         mavenCentral()
